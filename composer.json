@@ -1,0 +1,16 @@
+{
+    "name": "kehikko/twig",
+    "description": "Twig templating helper for kehikko framework",
+    "license": "MIT",
+    "authors": [{
+        "name": "Antti Partanen",
+        "email": "aehparta@iki.fi"
+    }],
+    "require": {
+        "php": ">=7.0.0",
+        "twig/twig": "^2.0",
+    },
+    "autoload": {
+        "files": ["twig.php"],
+    }
+}
