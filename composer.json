@@ -11,6 +11,6 @@
         "twig/twig": "^2.0"
     },
     "autoload": {
-        "files": ["twig.php"],
+        "files": ["twig.php"]
     }
 }
