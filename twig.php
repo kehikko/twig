@@ -25,7 +25,6 @@ function twig_init(array $extra_paths = [])
     $twig = new Twig_Environment($twig_loader, $config);
 
     /* add custom functions to twig here */
-    $twig->addFunction(new Twig_Function('t', function ($key) {return tr('{tr:' . $key . '}');}));
     $twig->addFunction(new Twig_Function('tr', 'tr'));
     $twig->addFunction(new Twig_Function('lang', function () {return cfg(['setup', 'lang']);}));
     $twig->addFunction(new Twig_Function('css', function () {return [];}));
